@@ -40,8 +40,8 @@
                                     <rect class="day" x="105" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="120" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="135" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="150" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="165" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="150" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="165" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="180" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="195" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                 </g>
@@ -879,7 +879,7 @@
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
                             <span class="code">a7b128ac</span>
-                            <span class="code">src/tracing/tracing.d.ts.map</span>
+                            <span class="code">src/log/logger.d.ts.map</span>
                             <span class="code"><span class="snippet additions">++1</span> <span class="snippet deletions">--0</span></span>
                         </div>
                     </section>
@@ -887,14 +887,14 @@
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -0,0 +1 @@</span><br /><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">{"version":3,"file":"tracing.d.ts","sourceRoot":"","sources":["../../src/tracing/tracing.ts"],"names":[],"mappings":";kBACkB,GAAG,SAAS,MAAM,SAAS,MAAM,YAAY,MAAM,QAAQ,MAAM,MAAM,IAAI,KAAG,MAAM,EAAE;;;AADxG,kBAoBE"}<br /></span></span>\No newline at end of file</code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -0,0 +1 @@</span><br /><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">{"version":3,"file":"logger.d.ts","sourceRoot":"","sources":["../../src/log/logger.ts"],"names":[],"mappings":"AACA,OAAO,OAAO,MAAM,oBAAoB,CAAC;AACzC,OAAO,EAAE,OAAO,EAAE,CAAC;AAEnB,oBAAY,KAAK;IACb,IAAI,IAAI;IACR,KAAK,IAAI;IACT,KAAK,IAAI;IACT,IAAI,IAAI;IACR,KAAK,IAAI;CACZ;AACD,wBAAgB,aAAa,CAAC,KAAK,EAAE,KAAK,GAAG,MAAM,CAalD;AACD,wBAAgB,aAAa,CAAC,MAAM,EAAE,KAAK,EAAC,KAAK,CAAC,EAAE,MAAM,GAAG,KAAK,CAuBjE;AACD,8BAAsB,UAAU;aACZ,IAAI,CAAC,CAAC,EAAE,GAAG,EAAE,IAAI,EAAE,MAAM,GAAG,IAAI;aAChC,KAAK,CAAC,CAAC,EAAE,GAAG,EAAE,IAAI,EAAE,MAAM,GAAG,IAAI;aACjC,KAAK,CAAC,CAAC,EAAE,GAAG,EAAE,IAAI,EAAE,MAAM,GAAG,IAAI;aACjC,IAAI,CAAC,CAAC,EAAE,GAAG,EAAE,IAAI,EAAE,MAAM,GAAG,IAAI;aAChC,KAAK,CAAC,CAAC,EAAE,GAAG,EAAE,IAAI,EAAE,MAAM,GAAG,IAAI;CACpD;AACD,cAAM,UAAU,CAAC,CAAC,SAAS,UAAU;IACjC,OAAO,CAAC,MAAM,CAAI;gBACN,MAAM,EAAE,CAAC;IAGd,IAAI,CAAC,CAAC,EAAE,GAAG,EAAE,IAAI,EAAE,MAAM;IAGzB,KAAK,CAAC,CAAC,EAAE,GAAG,EAAE,IAAI,EAAE,MAAM;IAG1B,KAAK,CAAC,CAAC,EAAE,GAAG,EAAE,IAAI,EAAE,MAAM;IAG1B,IAAI,CAAC,CAAC,EAAE,GAAG,EAAE,IAAI,EAAE,MAAM;IAGzB,KAAK,CAAC,CAAC,EAAE,GAAG,EAAE,IAAI,EAAE,MAAM;CAGpC;AAsED;;;;GAIG;AACH,eAAO,MAAM,WAAW,UAAmB,KAAK,KAAG,IAElD,CAAA;AAED;;;;EAIE;AACF,eAAO,MAAM,SAAS,wDAA+D,IAQpF,CAAA;AAED;;;EAGE;AACF,eAAO,MAAM,WAAW,QAAc,KAAuB,CAAA;AAE7D;;EAEE;AACF,eAAO,MAAM,SAAS,2CAGrB,CAAA;AAGD,eAAO,MAAM,UAAU,UAAmB,KAAK,KAAG,IAAsB,CAAA;AACxE,eAAO,MAAM,UAAU,QAAe,KAAsB,CAAA"}<br /></span></span>\No newline at end of file</code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 27 Oct 2022, 19:24:23 (timezone America/New_York) with lowlighter/metrics@3.28.0</span>
+                <span>Last updated 27 Oct 2022, 21:57:54 (timezone America/New_York) with lowlighter/metrics@3.28.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
